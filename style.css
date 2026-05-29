@@ -23,7 +23,9 @@
 /* end font handeling */
 
 
-
+img,source{
+    max-width: 100%;
+}
 
 body{
     background-color: hsl(30, 38%, 92%);
@@ -31,6 +33,13 @@ body{
 .card{
     background-color: white;
     padding: 20px;
+    width: 50%;
+}
+
+@media(min-width:48em){
+    .card{
+        width:70%;
+    }
 }
 p{
     font-size: 14px;
