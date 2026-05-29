@@ -1,5 +1,29 @@
 
 
+/* font handeling */
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Caveat:wght@400..700&family=Cherry+Swash:wght@400;700&family=Kalam:wght@300;400;700&family=Leckerli+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Sniglet:wght@400;800&family=Unkempt:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Caveat:wght@400..700&family=Cherry+Swash:wght@400;700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Kalam:wght@300;400;700&family=Leckerli+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Sniglet:wght@400;800&family=Unkempt:wght@400;700&display=swap');
+
+.typeOf , .discription , .price , .cartText{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color :hsl(228, 12%, 48%)
+}
+.name {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+
+    color:hsl(212, 21%, 14%);
+}
+/* end font handeling */
+
 
 
 
@@ -9,4 +33,7 @@ body{
 .card{
     background-color: white;
     padding: 20px;
+}
+p{
+    font-size: 14px;
 }
