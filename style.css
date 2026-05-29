@@ -82,9 +82,14 @@ p {
 .addToCart:active {
     background-color: green;
 }
+.addToCart:focus-visible {
+    outline: 3px solid hsl(212, 21%, 14%);
+    outline-offset: 3px;
+}
 .cartText {
     color: white;
 }
+
 
 /* DESKTOP */
 @media (min-width: 48em) {
