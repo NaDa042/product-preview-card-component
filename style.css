@@ -29,11 +29,13 @@ img,source{
 
 body{
     background-color: hsl(30, 38%, 92%);
+
 }
 .card{
     background-color: white;
     padding: 20px;
     width: 90%;
+    margin: auto;
 }
 
 @media(min-width:48em){
