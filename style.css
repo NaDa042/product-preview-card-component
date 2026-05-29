@@ -23,8 +23,11 @@
 /* end font handeling */
 
 
-img,source{
-    max-width: 100%;
+picture img,picture source{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
 }
 
 body{
@@ -32,7 +35,6 @@ body{
 }
 .card{
     background-color: white;
-    padding: 20px;
     width: 90%;
     margin: auto;
     height: fit-content;
@@ -46,6 +48,9 @@ body{
 }
 p{
     font-size: 14px;
+}
+.text{
+    padding: 20px;
 }
 
 .price{
@@ -64,3 +69,39 @@ p{
     color: hsl(158, 36%, 37%);
 
 }
+
+
+.addToCart{
+    width: 100%;
+    border:none;
+    border-radius: 5px;
+    background-color: hsl(158, 36%, 37%);
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    transition: 0.8s;
+}
+.addToCart:hover{
+    cursor: pointer;
+    transform:scale(0.9);
+    box-shadow: 2px 4px 4px gray;
+}
+.addToCart:focus{
+    border-color: black;
+}
+.addToCart:active{
+    background-color: green;
+}
+.cartText{
+    color: white;
+    margin: auto;
+    margin-left: 0;
+}
+.cartPic{
+    margin: auto;
+    margin-right: 0;
+}
+
+
+.attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
